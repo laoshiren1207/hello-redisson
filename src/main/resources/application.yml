@@ -1,0 +1,14 @@
+server:
+  port: 18074
+  
+  
+redisson:
+  lock:
+    server:
+      address: 120.79.0.210:6379
+      type: standalone
+      database: 1
+
+logging:
+  level:
+    com.laoshiren.hello.redisson: info
